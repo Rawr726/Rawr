@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAWR | Juan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <a href="#inicio" class="logo">RAWR<span></span></a>
+  <button class="menu-toggle" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+  <nav class="nav-links">
+    <a href="#inicio" class="active">INICIO</a>
+    <a href="#sobre-mi">SOBRE MÍ</a>
+    <a href="#gaming">GAMING</a>
+    <a href="#contenido">CONTENIDO</a>
+    <a href="#redes">REDES</a>
+  </nav>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+  <div class="hero-image"></div>
+  <div class="hero-overlay"></div>
+  <canvas id="particles"></canvas>
+  <div class="hero-scanlines"></div>
+  <div class="hero-corner corner-tl"></div><div class="hero-corner corner-br"></div>
+  <div class="red-glow"></div>
+  <div class="hero-content">
+    <p class="eyebrow"><span></span> JUAN • GAMER <span></span></p>
+    <h1 class="glitch-title" data-text="RAWR">RAWR</h1>
+    <p class="hero-subtitle">CALL OF DUTY <strong>MOBILE</strong></p>
+    <p class="hero-description">No juego para ganar.<br><strong>Juego para dominar.</strong></p>
+    <a class="cta" href="#sobre-mi">CONOCERME <span>↘</span></a>
+  </div>
+  <div class="hero-side-label">RAWR / 002</div>
+  <div class="scroll-indicator"><span></span> SCROLL</div>
+</section>
+
+<section id="sobre-mi" class="section reveal-section">
+  <div class="section-number">01</div>
+  <div class="section-heading"><p>IDENTIDAD</p><h2>SOBRE <em>MÍ</em></h2></div>
+  <div class="about-grid">
+    <article class="about-card reveal-item"><span>01 / PLAYER</span><h3>JUAN</h3><p>Detrás de RAWR está Juan: un jugador que convierte cada partida en una oportunidad para mejorar, competir y dejar su marca</p></article>
+    <article class="about-card accent-card reveal-item"><span>02 / NICK</span><h3>RAWR</h3><p>Un nombre corto, directo y reconocible. La identidad que representa mi contenido y mi estilo dentro del gaming</p></article>
+  </div>
+</section>
+
+<section id="gaming" class="section gaming reveal-section">
+  <div class="section-number">02</div>
+  <div class="section-heading"><p>MAIN GAME</p><h2>MI <em>JUEGO</em></h2></div>
+  <div class="game-panel reveal-item">
+    <div class="game-mark">COD<br><span>M</span></div>
+    <div class="game-info"><span class="gold-label">CALL OF DUTY</span><h3>MOBILE</h3><p>Mi juego principal. Partidas, armas, rachas y momentos que terminan convirtiéndose en contenido</p>
+      <div class="stats"><div><strong>01</strong><span>MAIN GAME</span></div><div><strong>RAWR</strong><span>PLAYER</span></div><div><strong>24/7</strong><span>GRIND</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contenido" class="section reveal-section">
+  <div class="section-number">03</div>
+  <div class="section-heading"><p>CREATOR</p><h2>MI <em>CONTENIDO</em></h2></div>
+  <div class="content-grid">
+    <article class="content-card reveal-item"><span>YOUTUBE</span><h3>VIDEOS</h3><p>Gameplay, novedades, armas y momentos de COD Mobile.</p><a class="ghost-button" href="https://www.youtube.com/@Style___JD" target="_blank" rel="noopener noreferrer">VER CONTENIDO ↗</a></article>
+    <article class="content-card reveal-item"><span>TWITCH</span><h3>DIRECTOS</h3><p>Partidas en vivo, rankeds y momentos con la comunidad.</p><a class="ghost-button" href="https://www.twitch.tv/style___jd" target="_blank" rel="noopener noreferrer">VER DIRECTOS ↗</a></article>
+        <article class="content-card">
+          <span>INSTAGRAM</span>
+          <h3>REELS</h3>
+          <p>Reels de armas, humor y algunos vlogs que suelo grabar</p>
+          <a class="ghost-button" href="https://www.instagram.com/style___jd/" target="_blank" rel="noopener noreferrer">VER REELS ↗</a>
+        </article>
+  </div>
+</section>
+
+<section id="redes" class="section socials reveal-section">
+  <div class="section-number">04</div>
+  <div class="section-heading centered"><p>CONNECT</p><h2>MIS <em>REDES</em></h2></div>
+  <div class="social-links reveal-item">
+    <a href="https://www.youtube.com/@Style___JD" target="_blank" rel="noopener noreferrer"><span>YT</span> YOUTUBE <b>↗</b></a>
+    <a href="https://www.twitch.tv/style___jd" target="_blank" rel="noopener noreferrer"><span>TW</span> TWITCH <b>↗</b></a>
+    <a href="https://www.instagram.com/style___jd" target="_blank" rel="noopener noreferrer"><span>IG</span> INSTAGRAM <b>↗</b></a>
+  </div>
+</section>
+</main>
+
+<footer><div class="footer-logo">RAWR<span></span></div><p>JUAN • GAMER • CALL OF DUTY MOBILE</p><small>© <span id="year"></span> RAWR</small></footer>
+<script src="script.js"></script>
+</body>
+</html>

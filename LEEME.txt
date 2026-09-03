@@ -1,0 +1,1 @@
+IMPORTANTE: copia tu imagen del primer paquete y renombrala como hero.png en esta misma carpeta. La pagina ya esta preparada para usarla como fondo del Hero.
